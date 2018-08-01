@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11010" started-at="2018-08-01T09:21:37Z" finished-at="2018-08-01T09:21:48Z">
+  <suite name="Default suite" duration-ms="24592" started-at="2018-08-01T10:38:41Z" finished-at="2018-08-01T10:39:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11010" started-at="2018-08-01T09:21:37Z" finished-at="2018-08-01T09:21:48Z">
+    <test name="Default test" duration-ms="24592" started-at="2018-08-01T10:38:41Z" finished-at="2018-08-01T10:39:05Z">
       <class name="com.seleniumnew.newtest3107.addpayslipsnaveen">
-        <test-method status="PASS" signature="addbankdetails()[pri:0, instance:com.seleniumnew.newtest3107.addpayslipsnaveen@18be83e4]" name="addbankdetails" duration-ms="4264" started-at="2018-08-01T14:51:37Z" finished-at="2018-08-01T14:51:41Z">
+        <test-method status="PASS" signature="addbankdetails()[pri:0, instance:com.seleniumnew.newtest3107.addpayslipsnaveen@18be83e4]" name="addbankdetails" duration-ms="5584" started-at="2018-08-01T16:08:41Z" finished-at="2018-08-01T16:08:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addbankdetails -->
-        <test-method status="PASS" signature="adddepartment()[pri:0, instance:com.seleniumnew.newtest3107.addpayslipsnaveen@18be83e4]" name="adddepartment" duration-ms="3240" started-at="2018-08-01T14:51:41Z" finished-at="2018-08-01T14:51:44Z">
+        <test-method status="PASS" signature="adddepartment()[pri:0, instance:com.seleniumnew.newtest3107.addpayslipsnaveen@18be83e4]" name="adddepartment" duration-ms="12049" started-at="2018-08-01T16:08:46Z" finished-at="2018-08-01T16:08:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adddepartment -->
-        <test-method status="PASS" signature="Generatepayslips()[pri:0, instance:com.seleniumnew.newtest3107.addpayslipsnaveen@18be83e4]" name="Generatepayslips" duration-ms="3482" started-at="2018-08-01T14:51:44Z" finished-at="2018-08-01T14:51:48Z">
+        <test-method status="PASS" signature="Generatepayslips()[pri:0, instance:com.seleniumnew.newtest3107.addpayslipsnaveen@18be83e4]" name="Generatepayslips" duration-ms="6932" started-at="2018-08-01T16:08:58Z" finished-at="2018-08-01T16:09:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Generatepayslips -->
