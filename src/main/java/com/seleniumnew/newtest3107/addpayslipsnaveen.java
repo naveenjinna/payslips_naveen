@@ -2,10 +2,13 @@ package com.seleniumnew.newtest3107;
 
 
 import java.util.HashMap;
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class addpayslipsnaveen {
 
@@ -13,7 +16,10 @@ public class addpayslipsnaveen {
 	private static final String PAYSLIPS_URL = "http://localhost:8080/employee-payslips/#!/login#employee";
 
 	static HashMap<Object, Object> testresultdata = new HashMap<>();
+	
 	public static void main(String[] args) {
+		
+		
 	System.setProperty("webdriver.chrome.driver", "usr/local/bin/chromedriver");
 
 	addbankdetails();
@@ -21,6 +27,8 @@ public class addpayslipsnaveen {
     Generatepayslips();
     
 	} 
+	
+	@Test(priority = 1)
 	public static void addbankdetails() {
 		try {
 			
@@ -80,6 +88,8 @@ public class addpayslipsnaveen {
 	    		    	}
 	
 	}
+	
+	@Test(priority = 2)
 		public static void adddepartment() {
 		try {	
 
@@ -127,6 +137,7 @@ public class addpayslipsnaveen {
 		}
 		}
 		
+	@Test(priority = 3)
 		public static void Generatepayslips() {
 			try {	
 				
@@ -181,5 +192,4 @@ public class addpayslipsnaveen {
 			}
 }
 }
-
 
